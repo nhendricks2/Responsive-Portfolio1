@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+      background-color: rgb(204, 218, 12);
+      }
+    }    
+ @media only screen and (max-width: 768px){
+    body {
+      background-color: rgb(247, 0, 255);
+     
+    }  
+      }
+@media only screen and (max-width: 640px){
+        body {background-color: rgb(22, 15, 1);
+         
+        }  
+    
+}
+
+@media only screen and (max-width: 640px){
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+
+
+body {
+    overflow:auto;
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, 
+    sans-serif;
+    color: #777;
+   
+
+}
+
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', Cambria, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #9c1791;
+}
+
+h1 {
+    font-size: 30px;
+    Line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 22px;
+} 
+
+/*header*/
+
+#masthead {
+    background: #fff;
+    margin: 0 0 38px;
+    z-index: 99;
+    color: #fff;
+    overflow: auto;
+    border-bottom: 2px solid #ccc;
+    position: static;
+    width: 100%;
+}
+
+#logo {
+    width: 250px;
+    height: 90px;
+    background-color: #b31a66;
+    border: 12px solid #6df737;
+    border-style: double;
+    float: left;
+    font-family: Georgia, serif;
+    text-align: center;
+    line-height: 90px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+		
+		
+
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+nav a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+/*main*/
+#main-container {
+    padding-top: inherit;
+}
+
+
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 960px;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+
+.auto-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+
+/*footer*/
+
+footer {
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #6df737;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*portfolio*/
+.work {
+    width: 274px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+}
+
+.work:nth-child(even) {
+    margin-right: 40px;
+}
+
+.work img {
+    width: 100%;
+    border:0 none;
+    opacity: .8;
+}
+
+.work h3 {
+    border-bottom: 0;
+    background: #6df737;
+    color: #9c1791;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 0;
+    
+}
+
+/*contact*/
+#contact-form ul {
+    margin-bottom: 20px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label,
+input [type=text],
+input [type=email],
+textarea {
+    display: black;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    height: 35px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 14px;
+    
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background: #f17909;
+    border:  solid;
+    color: #9c1791;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-device-width: 640px) {
+    body {
+        width: 400px;
+    }
+
+    header {
+      
+        height: 93px;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 140%;
+    }
+
+    #mainsection {
+        float: none;
+        width: 100%;
+    }
+
+    #nav {
+        float:none;
+        width: auto;
+    }
+}
+
